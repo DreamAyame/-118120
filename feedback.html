@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>回饋表單</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 100px; 
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<h2>回饋表單</h2>
+
+<form action="submit_feedback.php" method="POST">
+    <label for="name">姓名：</label>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label for="email">電子郵件：</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="feedback">回饋内容：</label>
+    <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+    
+    <input type="submit" value="提交">
+</form> 
+    <footer>
+        <p>&copy; 2024 咖啡店. 版權所有.</p>
+    <footer>
+</body>
+</html>
+<nav>
+<a href="good.html">優缺點</a>
+</nav>
